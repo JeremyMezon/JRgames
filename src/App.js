@@ -1,8 +1,14 @@
-import "./styles/base.scss";
+import "./styles/_base.scss";
 import { HomePage } from "./pages/home";
+import { Header } from "./shared/header";
 
 function App() {
-	return <HomePage />;
+	return (
+		<div className="main">
+			<Header />
+			<HomePage />;
+		</div>
+	);
 }
 
 export default App;

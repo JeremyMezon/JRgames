@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:wght@100;300;400;700;900&display=swap');
 
+$amarillo: #f6d12d;
+
 body {
     font-family: 'Lato', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.main{
+    background-color: #111111;
 }
 
 .overlay {
@@ -18,4 +24,17 @@ h1,h2,h3,h4,h5,h6{
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(17,17,17,1) 100%);
     z-index: 10;
+}
+
+.boton{
+    padding: 8px 25px;
+    background-color: white;
+    color: #ae8e00;
+    border-radius: 1px;
+    &:hover{
+        transition-duration: .3s;
+        background-color: transparent;
+        border: 2px solid #111111;
+        color: #111111;
+    }
 }

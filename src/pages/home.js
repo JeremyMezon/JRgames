@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "../components/card";
-import "../styles/home.scss";
+import "../styles/pages/home.scss";
 
 const cardData = require("../db.json");
 
@@ -40,7 +40,7 @@ export const HomePage = () => {
 				</div>
 			</section>
 			<section className="about-section">
-				<div className="container-fluid">
+				<div className="container">
 					<div className="row">
 						<div className="col-12 col-lg-6">
 							<div className="background-about"></div>
@@ -64,6 +64,9 @@ export const HomePage = () => {
 											Doloribus aliquid eum id aut eligendi ea minus nostrum?
 											Earum illum minima.
 										</p>
+										<a href="/" className="btn boton">
+											See who is JRgames
+										</a>
 									</div>
 								</div>
 							</div>
